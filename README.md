@@ -27,6 +27,7 @@ Many examples for other platforms and technologies are collected in separate rep
 * [HTML / JS](https://github.com/stimulsoft/Samples-Reports.JS-for-HTML)
 * [Angular / AngularJS](https://github.com/stimulsoft/Samples-Reports.JS-for-Angular)
 * [Node.js](https://github.com/stimulsoft/Samples-Reports.JS-for-Node.js)
+* [Python](https://github.com/stimulsoft/Samples-Reports.JS-for-Python)
 * [React](https://github.com/stimulsoft/Samples-Reports.JS-for-React)
 
 ## About Stimulsoft Reports.JS
