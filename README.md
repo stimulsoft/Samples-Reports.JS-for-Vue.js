@@ -49,7 +49,7 @@ This repository contains the source code of the examples of usage Stimulsoft Rep
 ## Running samples
 To run the examples, run the following commands in the console:
 * use `npm install` to install requred modules;
-* use `npm run dev` to run sample;
+* use `npm start` to run sample;
 * navigate to http://localhost:5173/.
 
 ## Connect to SQL databases
