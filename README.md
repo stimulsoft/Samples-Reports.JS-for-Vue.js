@@ -1,22 +1,56 @@
 # Vue.js samples for Stimulsoft Reports.JS
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.JS reporting tool in the Vue.js applications, using JavaScript code and Vue.js components. The report generator and examples are fully compatible with any Vue.js version.
-
 ## Overview
-A set of examples for working with report components in Vue.js:
-* [Integrating the Report Designer into an Application](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/tree/main/Vue.js/Integrating%20the%20Report%20Designer%20into%20an%20Application)
-* [Integrating the Report Viewer into an Application](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/tree/main/Vue.js/Integrating%20the%20Report%20Viewer%20into%20an%20Application)
-  
-A set of examples for working with report components in Vue.js 3:
-* [Integrating the Report Designer into an Application](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/tree/main/Vue.js%203/Integrating%20the%20Report%20Designer%20into%20an%20Application)
-* [Integrating the Report Viewer into an Application](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/tree/main/Vue.js%203/Integrating%20the%20Report%20Viewer%20into%20an%20Application)
-* [Supply Custom Headers for Json Database](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/tree/main/Vue.js%203/Supply%20Custom%20Headers%20for%20Json%20Database)
+This repository contains the source code of the examples of usage Stimulsoft Reports.JS reporting tool in the Vue.js applications, using JavaScript code and Vue.js components.
+
+#### Localization and Globalization
+* [Localizing the Designer](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Localizing%20the%20Designer.vue)
+* [Localizing the Viewer](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Localizing%20the%20Viewer.vue)
+* [Globalizing Report](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Globalizing%20Report.vue)
+
+#### Fonts and Resources
+* [Using a Custom Font](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20a%20Custom%20Font.vue)
+* [Adding a Font to the Resource](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Adding%20a%20Font%20to%20the%20Resource.vue)
+
+#### Printing and Exporting
+* [Printing a Report from Code](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Printing%20the%20Report%20from%20Code.vue)
+* [Exporting a Report to PDF](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Exporting%20a%20Report%20to%20PDF.vue)
+* [Exporting a Report to HTML](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Exporting%20a%20Report%20to%20HTML.vue)
+* [Exporting a Report from Code with Changing Export Settings](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Exporting%20a%20Report%20from%20Code%20with%20Changing%20Export%20Settings.vue)
+* [Exporting Many Files to Single PDF](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Exporting%20Many%20Files%20to%20Single%20PDF.vue)
+
+#### Data Connection and Registration
+* [Creating a new Data Connection from code](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Creating%20a%20new%20Data%20Connection%20from%20code.vue)
+* [Registering Data from Code](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Registering%20Data%20from%20Code.vue)
+* [Using SQL Data Sources](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20SQL%20Data%20Sources.vue)
+* [Using Parameters in SQL Query](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20Parameters%20in%20SQL%20Query.vue)
+* [Using a Custom Data Adapter](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20a%20Custom%20Data%20Adapter.vue)
+* [Supply Custom Headers for JSON Database](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Supply%20Custom%20Headers%20for%20JSON%20Database.vue)
+
+#### Working with Viewer Settings and Events
+* [Customizing the Designer](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Customizing%20the%20Designer.vue)
+* [Changing the Designer Theme](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Changing%20the%20Designer%20Theme.vue)
+* [Customizing the Viewer](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Customizing%20the%20Viewer.vue) 
+* [Changing the Viewer Theme](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Changing%20the%20Viewer%20Theme.vue)
+* [Showing a Report in the Viewer without Toolbar](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Showing%20a%20Report%20in%20the%20Viewer%20without%20Toolbar.vue)
+* [Using Designer Events](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20Designer%20Events.vue)
+* [Using Viewer Events](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20Viewer%20Events.vue)
+* [Working with onDesign and onExit Events](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Working%20with%20onDesign%20and%20onExit%20Events.vue)
+* [Using the two Viewer in the One Project](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20the%20two%20Viewer%20in%20the%20One%20Project.vue)
+* [Get a modified Report from the Designer](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Get%20a%20modified%20Report%20from%20the%20Designer.vue)
+* [Using the Right-To-Left Mode in the Viewer](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20the%20Right-To-Left%20Mode%20in%20the%20Viewer.vue)
+
+#### Working with Reports, and Advanced Features
+* [How to Activate the Product](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/How%20to%20Activate%20the%20Product.vue)
+* [Rendering a Report from Code](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Rendering%20a%20Report%20from%20Code.vue)
+* [Using Report Variables in Code](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Using%20Report%20Variables%20in%20Code.vue)
+* [Creating Report at Runtime](https://github.com/stimulsoft/Samples-Reports.JS-for-Vue.js/blob/main/src/Creating%20Report%20at%20Runtime.vue)
 
 ## Running samples
-To run the examples, open the required folder with the example and run the following commands in the console:
+To run the examples, run the following commands in the console:
 * use `npm install` to install requred modules;
 * use `npm run dev` to run sample;
-* navigate to http://localhost:8080/ for Vue.js samples or http://localhost:3000/ for Vue.js 3 samples.
+* navigate to http://localhost:5173/.
 
 ## Connect to SQL databases
 Since pure JavaScript does not have built-in methods for working with remote databases, this functionality is implemented using server-side code. Therefore, Stimulsoft Reports.JS product contains server data adapters implemented using PHP, Node.js, ASP.NET, Java, .NET Core technologies.
@@ -25,7 +59,7 @@ Since pure JavaScript does not have built-in methods for working with remote dat
 ## Other JS reporting components
 Many examples for other platforms and technologies are collected in separate repositories:
 * [HTML / JS](https://github.com/stimulsoft/Samples-Reports.JS-for-HTML)
-* [Angular / AngularJS](https://github.com/stimulsoft/Samples-Reports.JS-for-Angular)
+* [Angular](https://github.com/stimulsoft/Samples-Reports.JS-for-Angular)
 * [Node.js](https://github.com/stimulsoft/Samples-Reports.JS-for-Node.js)
 * [Python](https://github.com/stimulsoft/Samples-Reports.JS-for-Python)
 * [React](https://github.com/stimulsoft/Samples-Reports.JS-for-React)
