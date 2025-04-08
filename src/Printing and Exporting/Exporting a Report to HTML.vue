@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Stimulsoft } from 'stimulsoft-reports-js-vuejs'
+import '../styles.css';
 
 async function saveReportHtml() {
     var report = new Stimulsoft.Report.StiReport();
@@ -13,7 +14,12 @@ async function saveReportHtml() {
 </script>
 
 <template>
-    <button @click="saveReportHtml">Export and Save HTML report to file</button>
+    <div class="container">
+        <h4>This sample demonstrates how to export a report to an HTML file and save it:</h4>
+        <div class="container-button">
+            <button @click="saveReportHtml" class="button" title="Export Report to HTML File">Export to HTML</button>
+        </div>
+    </div>
 </template>
 
 <style scoped></style>

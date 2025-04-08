@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { Viewer, Stimulsoft } from 'stimulsoft-reports-js-vuejs/viewer'
+import '../styles.css';
 
 var report = ref<Stimulsoft.Report.StiReport>(null);
 
@@ -30,10 +31,14 @@ function buttonJsonClick() {
 </script>
 
 <template>
-    <div>
-        <button @click=buttonXmlClick>Register XML Data</button>
-        <button @click=buttonJsonClick>Register JSON Data</button>
-        <Viewer :report=report />
+    <div class="container">
+        <div class="container-button">
+            <button @click="buttonXmlClick" class="button" title="Using regData() method for registering XML data">Register XML Data</button>
+            <button @click="buttonJsonClick" class="button" title="Using regData() method for registering JSON data">Register JSON Data</button>
+        </div>
+        <div>
+            <Viewer :report="report" />
+        </div>
     </div>
 </template>
 

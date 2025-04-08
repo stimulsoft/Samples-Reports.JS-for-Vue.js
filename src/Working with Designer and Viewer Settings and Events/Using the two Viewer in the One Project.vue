@@ -1,20 +1,24 @@
 <script setup lang="ts">
-import { Viewer, Stimulsoft } from 'stimulsoft-reports-js-vuejs/viewer'
+import { Viewer, Stimulsoft } from 'stimulsoft-reports-js-vuejs/viewer';
+import '../styles.css';
+
+var viewerOptions = new Stimulsoft.Viewer.StiViewerOptions();
+viewerOptions.appearance.scrollbarsMode = true;
+viewerOptions.height = '100vh';
 
 var report1 = new Stimulsoft.Report.StiReport();
-report1.loadFile("Reports/SimpleList.mrt");
+report1.loadFile('Reports/SimpleList.mrt');
 
 var report2 = new Stimulsoft.Report.StiReport();
-report2.loadFile("Reports/TwoSimpleLists.mrt");
+report2.loadFile('Reports/TwoSimpleLists.mrt');
 </script>
 
 <template>
-    <div>
-        <div :style="{ width: '50%', display: 'inline-block' }">
-            <Viewer :report=report1 />
-        </div>
-        <div :style="{ width: '50%', display: 'inline-block' }">
-            <Viewer :report=report2 />
+    <div class="container">
+        <h4>This sample demonstrates how to add two viewers to one page:</h4>
+        <div class="container-viewer">
+            <Viewer :report="report1" :options="viewerOptions" />
+            <Viewer :report="report2" :options="viewerOptions" />
         </div>
     </div>
 </template>

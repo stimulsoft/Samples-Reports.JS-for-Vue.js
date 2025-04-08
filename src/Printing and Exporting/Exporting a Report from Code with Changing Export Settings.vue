@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Stimulsoft } from 'stimulsoft-reports-js-vuejs'
+import '../styles.css';
 
 async function saveReportPdf() {
     var report = new Stimulsoft.Report.StiReport();
@@ -19,7 +20,12 @@ async function saveReportPdf() {
 </script>
 
 <template>
-    <button @click="saveReportPdf">Export and Save PDF report to file</button>
+    <div class="container">
+        <h4>This example shows how to export a report to a PDF file and adjust the export settings via code. Please, enter the password <b>123</b> to show report</h4>
+        <div class="container-button">
+            <button @click="saveReportPdf" class="button" title="Export Report to PDF File">Export to PDF</button>
+        </div>
+    </div>
 </template>
 
 <style scoped></style>
