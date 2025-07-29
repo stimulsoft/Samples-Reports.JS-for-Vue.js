@@ -104,7 +104,7 @@
                 </RouterLink>
             </li>
         </ul>
-        Rendering, Working with Reports, and Advanced Features
+        Working with Reports and Advanced Features
         <ul>
             <li>
                 <RouterLink to="/How_to_Activate_the_Product">How to Activate the Product</RouterLink>

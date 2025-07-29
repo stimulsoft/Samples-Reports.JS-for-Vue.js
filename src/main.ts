@@ -34,10 +34,10 @@ import UsingTheTwoViewerInTheOneProject from './Working with Designer and Viewer
 import GetModifiedReportFromTheDesigner from './Working with Designer and Viewer Settings and Events/Get a modified Report from the Designer.vue';
 import UsingTheRightToLeftModeInTheViewer from './Working with Designer and Viewer Settings and Events/Using the Right-To-Left Mode in the Viewer.vue';
 
-import HowToActivateTheProduct from './Working with Dashboards and Advanced Features/How to Activate the Product.vue';
-import RenderingReportFromCode from './Working with Dashboards and Advanced Features/Rendering a Report from Code.vue';
-import UsingReportVariablesInCode from './Working with Dashboards and Advanced Features/Using Report Variables in Code.vue';
-import CreatingReportAtRuntime from './Working with Dashboards and Advanced Features/Creating Report at Runtime.vue';
+import HowToActivateTheProduct from './Working with Reports and Advanced Features/How to Activate the Product.vue';
+import RenderingReportFromCode from './Working with Reports and Advanced Features/Rendering a Report from Code.vue';
+import UsingReportVariablesInCode from './Working with Reports and Advanced Features/Using Report Variables in Code.vue';
+import CreatingReportAtRuntime from './Working with Reports and Advanced Features/Creating Report at Runtime.vue';
 
 import ListSamples from './ListSamples.vue'
 
