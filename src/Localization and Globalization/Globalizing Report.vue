@@ -27,7 +27,7 @@ watch(
             <select v-model="selectedCountry" class="select-globalization">
                 <option value="en-US">English</option>
                 <option value="de-DE">Deutsch</option>
-                <option value="ru-RU">Russian</option>
+                <option value="pl-PL">Polish</option>
             </select>
         </div>
         <div>
